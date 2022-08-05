@@ -1,0 +1,484 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.m-center {
+  margin: 0 auto;
+}
+
+.mb-1 {
+  margin-bottom: 4px;
+}
+
+.me-1 {
+  margin-right: 4px;
+}
+
+.pb-1 {
+  padding-bottom: 4px;
+}
+
+.mb-2 {
+  margin-bottom: 8px;
+}
+
+.me-2 {
+  margin-right: 8px;
+}
+
+.pb-2 {
+  padding-bottom: 8px;
+}
+
+.mb-3 {
+  margin-bottom: 12px;
+}
+
+.me-3 {
+  margin-right: 12px;
+}
+
+.pb-3 {
+  padding-bottom: 12px;
+}
+
+.mb-4 {
+  margin-bottom: 16px;
+}
+
+.me-4 {
+  margin-right: 16px;
+}
+
+.pb-4 {
+  padding-bottom: 16px;
+}
+
+.mb-5 {
+  margin-bottom: 20px;
+}
+
+.me-5 {
+  margin-right: 20px;
+}
+
+.pb-5 {
+  padding-bottom: 20px;
+}
+
+.mb-6 {
+  margin-bottom: 24px;
+}
+
+.me-6 {
+  margin-right: 24px;
+}
+
+.pb-6 {
+  padding-bottom: 24px;
+}
+
+.mb-7 {
+  margin-bottom: 28px;
+}
+
+.me-7 {
+  margin-right: 28px;
+}
+
+.pb-7 {
+  padding-bottom: 28px;
+}
+
+.mb-8 {
+  margin-bottom: 32px;
+}
+
+.me-8 {
+  margin-right: 32px;
+}
+
+.pb-8 {
+  padding-bottom: 32px;
+}
+
+.mb-9 {
+  margin-bottom: 36px;
+}
+
+.me-9 {
+  margin-right: 36px;
+}
+
+.pb-9 {
+  padding-bottom: 36px;
+}
+
+.mb-10 {
+  margin-bottom: 40px;
+}
+
+.me-10 {
+  margin-right: 40px;
+}
+
+.pb-10 {
+  padding-bottom: 40px;
+}
+
+.mb-11 {
+  margin-bottom: 44px;
+}
+
+.me-11 {
+  margin-right: 44px;
+}
+
+.pb-11 {
+  padding-bottom: 44px;
+}
+
+.mb-12 {
+  margin-bottom: 48px;
+}
+
+.me-12 {
+  margin-right: 48px;
+}
+
+.pb-12 {
+  padding-bottom: 48px;
+}
+
+.mb-13 {
+  margin-bottom: 52px;
+}
+
+.me-13 {
+  margin-right: 52px;
+}
+
+.pb-13 {
+  padding-bottom: 52px;
+}
+
+.mb-14 {
+  margin-bottom: 56px;
+}
+
+.me-14 {
+  margin-right: 56px;
+}
+
+.pb-14 {
+  padding-bottom: 56px;
+}
+
+.mb-15 {
+  margin-bottom: 60px;
+}
+
+.me-15 {
+  margin-right: 60px;
+}
+
+.pb-15 {
+  padding-bottom: 60px;
+}
+
+.mb-16 {
+  margin-bottom: 64px;
+}
+
+.me-16 {
+  margin-right: 64px;
+}
+
+.pb-16 {
+  padding-bottom: 64px;
+}
+
+.mb-17 {
+  margin-bottom: 68px;
+}
+
+.me-17 {
+  margin-right: 68px;
+}
+
+.pb-17 {
+  padding-bottom: 68px;
+}
+
+.pt-7 {
+  padding-top: 28px;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.justify-content-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.align-items-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-left: -12px;
+  margin-right: -12px;
+}
+
+.col-4 {
+  width: calc(100% / 3);
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.col-6 {
+  width: 50%;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.col-8 {
+  width: calc(100% / 12 * 8);
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.offset-2 {
+  margin-left: calc(100% / 6);
+}
+
+.bg-primary {
+  background-color: #891818;
+}
+
+.bg-primary a {
+  color: #FFFFFF;
+}
+
+.text-primary {
+  color: #891818;
+}
+
+.bg-dark {
+  background-color: #000000;
+}
+
+.bg-dark a {
+  color: #FFFFFF;
+}
+
+.text-dark {
+  color: #000000;
+}
+
+.bg-light {
+  background-color: #FFFFFF;
+}
+
+.bg-light a {
+  color: #FFFFFF;
+}
+
+.text-light {
+  color: #FFFFFF;
+}
+
+.bg-gray {
+  background-color: #707070;
+}
+
+.bg-gray a {
+  color: #FFFFFF;
+}
+
+.text-gray {
+  color: #707070;
+}
+
+.fz-1 {
+  font-size: 1rem;
+}
+
+.fz-2 {
+  font-size: 1.25rem;
+}
+
+.fz-3 {
+  font-size: 1.5rem;
+}
+
+.fz-4 {
+  font-size: 4rem;
+}
+
+.fz-5 {
+  font-size: 5rem;
+}
+
+.fw-medium {
+  font-weight: 500;
+}
+
+.fw-bold {
+  font-weight: 700;
+}
+
+.fw-black {
+  font-weight: 900;
+}
+
+.border-top {
+  border-top: 1px solid #000;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.line-height-32 {
+  line-height: 32px;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+body {
+  line-height: 1.5;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* outline: 1px solid rgb(255, 66, 98); */
+}
+
+.container {
+  max-width: 1200px;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin: 0 auto;
+}
+
+.header-banner {
+  background-image: url(../images/banner.png);
+  background-size: cover;
+  background-position: center top;
+  height: 958px;
+  border: 1px solid #707070;
+}
+
+.title {
+  font-size: 4rem;
+}
+
+.dot::before {
+  content: "";
+  display: inline-block;
+  background-color: #891818;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+
+.block-padding {
+  padding-top: 56px;
+  padding-bottom: 56px;
+}
+
+.block-padding-footer {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.btn--hover:hover {
+  border-radius: 14px;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.contact-link--hover:hover {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=all.css.map */
