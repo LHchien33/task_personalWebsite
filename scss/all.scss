@@ -37,7 +37,7 @@ img{
   background-image: url(../images/banner.png);
   background-size: cover;
   background-position: center top;
-  height: 958px;
+  height: 100vh;
   border: 1px solid $c-gray;
 }
 
@@ -66,9 +66,12 @@ img{
   }
 }
 
-.btn--hover:hover{
-  border-radius: 14px;
-  transform: scale(1.1);
+.btn--hover{
+  transition: transform .2s;
+  &:hover{
+    border-radius: 14px;
+    transform: scale(1.1);
+  }
 }
 
 .contact-link--hover:hover{

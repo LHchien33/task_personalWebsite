@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="./css/all.css">
 </head>
 <body>
@@ -15,10 +16,8 @@
     <div class="container">
       <div class="text-light">
         <p class="fz-3 fw-bold">Here’s</p>
-        <h1 class="mb-10">
-          <p class="fz-5 mb-8 fw-black">JOANNE</p>
-          <p class="fz-3 fw-bold">Founder of “XXXD Official’’<br>& Graphic Designer</p>
-        </h1>
+        <h1 class="fz-5 mb-8 fw-black">JOANNE</h1>
+        <p class="fz-3 fw-bold mb-10">Founder of ‘’XXXD Official’’<br>& Graphic Designer</p>
         <div>
           <a class="inline-block me-4 btn--hover" href="#"><img src="./images/behance.svg" alt="behance"></a>
           <a class="inline-block me-4 btn--hover" href="#"><img src="./images/facebook.svg" alt="facebook"></a>
@@ -31,39 +30,39 @@
 
   <main>
     <div class="bg-light">
-      <div class="container text-center block-padding">
+      <div class="container text-center block-padding" data-aos="fade-up">
         <h2 class="mb-10 fz-4 fw-medium">About</h2>
         <img class="mb-5" src="./images/photo.png" alt="avatar">
-        <div class="mb-2 fz-3 fw-bold">
-          <p class="mb-1 line-height-32">Joanne Chen</p>
-          <p class="line-height-32">1997/10/10</p>
-        </div>
-        <p class="mb-6 fz-3 fw-bold">National Hex School Normal University<br>Department of Visual Design</p>
+        <ul>
+          <li class="mb-1 fz-3 fw-bold line-height-32">Joanne Chen</li>
+          <li class="mb-2 fz-3 fw-bold line-height-32">1997/10/10</li>
+          <li class="mb-6 fz-3 fw-bold">National Hex School Normal University<br>Department of Visual Design</li>
+        </ul>
         <div class="col-4 m-center">
           <ul class="pt-7 fz-3 fw-bold border-top">
-            <li class="dot mb-7">Founder of ‘’XXXD Official’’</li>
-            <li class="dot mb-7">Graphic Designer</li>
-            <li class="dot">Graphic Intern of Hex School</li>
+            <li class="dot mb-7" data-aos="fade-right">Founder of ‘’XXXD Official’’</li>
+            <li class="dot mb-7" data-aos="fade-right" data-aos-delay="200">Graphic Designer</li>
+            <li class="dot" data-aos="fade-right" data-aos-delay="400">Graphic Intern of Hex School</li>
           </ul>
         </div>
       </div>
     </div>
 
     <div class="bg-dark text-light">
-      <div class="container block-padding">
+      <div class="container block-padding" data-aos="fade-up" data-aos-delay="400">
         <div class="text-center mb-17">
           <h2 class="mb-3 fz-4 fw-medium">My Brand ‘’XXXD’’</h2>
-          <p class="mb-8 fz-3 fw-medium">Just Keep XXXD Everyday</p>
+          <h3 class="mb-8 fz-3 fw-medium">Just Keep XXXD Everyday</h3>
           <p class="fz-2 fw-medium">2020 年創立的個人服飾品牌<br>引領叛逆少年開啟與社會對話的窗口<br>主打概念潮流T-Shirt</p>
         </div>
         <ul class="row mb-16">
-          <li class="col-8 offset-2 mb-10">
+          <li class="col-8 offset-2 mb-10" data-aos="zoom-in" data-aos-delay="200">
             <img src="./images/brand_img1.png" alt="品牌服飾圖片1">
           </li>
-          <li class="col-6 mb-10">
+          <li class="col-6 mb-10" data-aos="zoom-in" data-aos-delay="200">
             <img src="./images/brand_img2.png" alt="品牌服飾圖片2">
           </li>
-          <li class="col-6 mb-10">
+          <li class="col-6 mb-10" data-aos="zoom-in" data-aos-delay="400">
             <img src="./images/brand_img3.png" alt="品牌服飾圖片3">
           </li>
         </ul>
@@ -72,44 +71,46 @@
 
     <div class="bg-light">
       <div class="container text-center block-padding">
-        <h2 class="mb-4 fz-4 fw-medium">Other Works</h2>
-        <p class="mb-14 fz-2 fw-medium">2016-2020 年累積的作品<br>海報/廣告/攝影/LOGO/3D</p>
-        <ul class="row">
+        <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+          <h2 class="mb-4 fz-4 fw-medium">Other Works</h2>
+          <p class="mb-14 fz-2 fw-medium">2016-2020 年累積的作品<br>海報/廣告/攝影/LOGO/3D</p>
+        </div>
+        <ul class="row" data-aos="fade-right">
           <li class="col-4 mb-12">
             <img class="mb-4" src="./images/work_img1.png" alt="作品1">
-            <p class="fz-2 fw-medium">海報設計/2017</p>
+            <h3 class="fz-2 fw-medium">海報設計/2017</h3>
           </li>
           <li class="col-4 mb-12">
             <img class="mb-4" src="./images/work_img2.png" alt="作品2">
-            <p class="fz-2 fw-medium">海報設計/2018</p>
+            <h3 class="fz-2 fw-medium">海報設計/2018</h3>
           </li>
           <li class="col-4 mb-12">
             <img class="mb-4" src="./images/work_img3.png" alt="作品3">
-            <p class="fz-2 fw-medium">海報設計/2018</p>
+            <h3 class="fz-2 fw-medium">海報設計/2018</h3>
           </li>
         </ul>
-        <ul class="row">
+        <ul class="row" data-aos="fade-left" data-aos-delay="300">
           <li class="col-6 mb-12">
             <img class="mb-4" src="./images/work_img4.png" alt="作品4">
-            <p class="fz-2 fw-medium">概念攝影/2018</p>
+            <h3 class="fz-2 fw-medium">概念攝影/2018</h3>
           </li>
           <li class="col-6 mb-12">
             <img class="mb-4" src="./images/work_img5.png" alt="作品5">
-            <p class="fz-2 fw-medium">概念攝影/2018</p>
+            <h3 class="fz-2 fw-medium">概念攝影/2018</h3>
           </li>
         </ul>
-        <ul class="row mb-10">
+        <ul class="row mb-10" data-aos="fade-right" data-aos-delay="300">
           <li class="col-4 mb-12">
             <img class="mb-4" src="./images/work_img6.png" alt="作品6">
-            <p class="fz-2 fw-medium">sasa 酒標設計/2019</p>
+            <h3 class="fz-2 fw-medium">sasa 酒標設計/2019</h3>
           </li>
           <li class="col-4 mb-12">
             <img class="mb-4" src="./images/work_img7.png" alt="作品7">
-            <p class="fz-2 fw-medium">攝影創作/2018</p>
+            <h3 class="fz-2 fw-medium">攝影創作/2018</h3>
           </li>
           <li class="col-4 mb-12">
             <img class="mb-4" src="./images/work_img8.png" alt="作品8">
-            <p class="fz-2 fw-medium">官網設計/2020</p>
+            <h3 class="fz-2 fw-medium">官網設計/2020</h3>
           </li>
         </ul>
         </ul>
@@ -127,5 +128,11 @@
     </div>
   </footer>
 
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 600,
+    });
+  </script>
 </body>
 </html>

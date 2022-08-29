@@ -43,7 +43,7 @@ blockquote, q {
 
 blockquote:before, blockquote:after,
 q:before, q:after {
-  content: '';
+  content: "";
   content: none;
 }
 
@@ -265,35 +265,26 @@ table {
 }
 
 .flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
 .justify-content-center {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 .align-items-center {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
 .row {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   margin-left: -12px;
   margin-right: -12px;
 }
 
 .col-4 {
-  width: calc(100% / 3);
+  width: 33.3333333333%;
   padding-left: 12px;
   padding-right: 12px;
 }
@@ -305,19 +296,18 @@ table {
 }
 
 .col-8 {
-  width: calc(100% / 12 * 8);
+  width: 66.6666666667%;
   padding-left: 12px;
   padding-right: 12px;
 }
 
 .offset-2 {
-  margin-left: calc(100% / 6);
+  margin-left: 16.6666666667%;
 }
 
 .bg-primary {
   background-color: #891818;
 }
-
 .bg-primary a {
   color: #FFFFFF;
 }
@@ -329,7 +319,6 @@ table {
 .bg-dark {
   background-color: #000000;
 }
-
 .bg-dark a {
   color: #FFFFFF;
 }
@@ -341,7 +330,6 @@ table {
 .bg-light {
   background-color: #FFFFFF;
 }
-
 .bg-light a {
   color: #FFFFFF;
 }
@@ -353,7 +341,6 @@ table {
 .bg-gray {
   background-color: #707070;
 }
-
 .bg-gray a {
   color: #FFFFFF;
 }
@@ -428,8 +415,7 @@ img {
 }
 
 *, *::before, *::after {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   /* outline: 1px solid rgb(255, 66, 98); */
 }
 
@@ -444,7 +430,7 @@ img {
   background-image: url(../images/banner.png);
   background-size: cover;
   background-position: center top;
-  height: 958px;
+  height: 100vh;
   border: 1px solid #707070;
 }
 
@@ -466,19 +452,19 @@ img {
   padding-top: 56px;
   padding-bottom: 56px;
 }
-
 .block-padding-footer {
   padding-top: 64px;
   padding-bottom: 64px;
 }
 
+.btn--hover {
+  transition: transform 0.2s;
+}
 .btn--hover:hover {
   border-radius: 14px;
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .contact-link--hover:hover {
   text-decoration: underline;
-}
-/*# sourceMappingURL=all.css.map */
+}/*# sourceMappingURL=all.css.map */
